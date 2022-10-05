@@ -10,7 +10,7 @@ This work applies the knowledge of market basket analysis by demonstrating using
 
 In short, the analysis is initialized by counting the occurrence of each item to come up with a subset of frequent items that satisfy the minimum support threshold. By iterating through the frequent item set, the association rule between the frequently bought together items (such as when item A, known as the antecedent, is bought, then item B, known as the consequent, is also bought together) is produced as output.
 
-*Note: The workflow is done with Python coding. Thus, besides the theoretical concept, some code chunks are attached here to explain the process. Please refer to the Jupyter notebook saved in the source code folder for further reference. Similar explanations are constructed in the notebook for consistency.*
+*Note: The workflow is done with Python coding. Please refer to the Jupyter notebook saved in the source code folder for further reference. Similar explanations are constructed in the notebook for consistency.*
 
 ### The role of Metrics
 The usage of the association rule in market basket analysis will focus on the analysis of rules. Since there are many rules available, it would be significant if we could limit them by taking only the valuable rules. To get those rules, we will use some metrics acting as a measure of the performance of the rule, which allows us to quantify the usefulness of the relationships or associations between the items. The metrics discussed in this report are as follows: support, confidence, Lift, and convictions.
