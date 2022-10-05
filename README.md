@@ -51,7 +51,7 @@ The usage of the association rule in market basket analysis will focus on the an
 -	In terms of item placement, the outcome could suggest that the groceries put Whole wheat pasta, mineral water, and olive oil in closer places, either on the same shelf or any place closer to each other so that it will be easy for people to reach out to the items.
 -	The results suggest putting Whole wheat pasta, mineral water, and olive oil as a single bundle of products or special packs at a lower price to attract customers to buy and generate more profit.
 -	The results suggest running discounts and promotions on the items. Whenever customer purchase:
-o	Pasta, they will get a discount on buying escalope or
-o	Chocolate, herb & pepper, they will get a discount on buying ground beef
-o	Frozen vegetables, soup, they will get a discount on buying milk
+  -	Pasta, they will get a discount on buying escalope or
+  -	Chocolate, herb & pepper, they will get a discount on buying ground beef
+  - Frozen vegetables, soup, they will get a discount on buying milk
 -	The shop could advertise the special deal on the day to recommend customers to buy the combination of items to get a discount.
