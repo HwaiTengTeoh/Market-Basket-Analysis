@@ -49,8 +49,13 @@ The usage of the association rule in market basket analysis will focus on the an
 ## Findings
 Based on the association rules, a few conclusions and suggestions for the groceries are made.
 1. In terms of item placement, the outcome could suggest that the groceries put Whole wheat pasta, mineral water, and olive oil in closer places, either on the same shelf or any place closer to each other so that it will be easy for people to reach out to the items.
-2. The results suggest putting Whole wheat pasta, mineral water, and olive oil as a single bundle of products or special packs at a lower price to attract customers to 3. The results suggest running discounts and promotions on the items. Whenever customer purchase:
+2. The results suggest putting Whole wheat pasta, mineral water, and olive oil as a single bundle of products or special packs at a lower price to attract customers  to buy and generate more profit.
+3. The results suggest running discounts and promotions on the items. Whenever customer purchase:
 - Pasta, they will get a discount on buying escalope or
 -	Chocolate, herb & pepper, they will get a discount on buying ground beef
 - Frozen vegetables, soup, they will get a discount on buying milk
 4. The shop could advertise the special deal on the day to recommend customers to buy the combination of items to get a discount.
+
+## Future Improvement
+- Apply Zhang's metric in the pruning process as it comprehensively tells us the association and disassociation between the items. It is bounded from below by -1 and bounded from above by one whereby A value of 1 indicates perfect association and negative 1 indicates perfect dissociation. 
+- Besides, it would be interesting to perform aggregation on the original transactional data by grouping items into categories, which can help reduce the sparse items. For example, in this case, the groceries sold parmesan cheese, strong cheese, cottage cheese, and grated cheese, which are the subsets of category cheese. This may aid the market basket analysis problem in identifying rules between categories of items.
