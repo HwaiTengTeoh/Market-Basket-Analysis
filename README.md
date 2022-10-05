@@ -1,6 +1,6 @@
 # Market Basket Analysis for Groceries Transaction
 ## Introduction
-**Frequent pattern mining** is a process of extracting recurring relationships based on the number of frequencies or occurrences in a dataset. Frequent patterns are those items, sequences, or substructures that reprise database transactions with a  user-specified frequency [1]. A frequent itemset is a form of frequent pattern and refers to a set of items that occurs together and exists at least a minimum number of times (known as minimum support). Finding all frequent item sets is one of the step-ins in mining for association rule. 
+**<ins>Frequent pattern mining</ins>** is a process of extracting recurring relationships based on the number of frequencies or occurrences in a dataset. Frequent patterns are those items, sequences, or substructures that reprise database transactions with a  user-specified frequency [1]. A frequent itemset is a form of frequent pattern and refers to a set of items that occurs together and exists at least a minimum number of times (known as minimum support). Finding all frequent item sets is one of the step-ins in mining for association rule. 
 
 The concept of **association rule mining** was popularised in 1993 through a study on an extensive database of retail customer transactions known as market basket analysis. A new algorithm is proposed to generate all significant association rules between items bought together in a shopping cart.
 
