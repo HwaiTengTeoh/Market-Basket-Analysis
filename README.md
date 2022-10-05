@@ -46,6 +46,25 @@ The usage of the association rule in market basket analysis will focus on the an
 - The "Market_Basket_Data.csv" dataset contains all the items purchased in each transaction per row. 
 - The items sold are tomato sauce, bramble, babies food, salt, extra dark chocolate, mushroom cream sauce, escalope, frozen vegetables, strawberries, dessert wine, antioxydant juice, cake, french wine, tea, tomatoes, frozen smoothie, sparkling water, gluten free bar, body spray, green grapes, eggplant, spaghetti, energy drink, candy bars, yogurt cake, butter, chocolate bread, shrimp, eggs, mineral water, red wine, shampoo, whole wheat pasta, magazines, zucchini, rice, ham, hand protein bar, chili, clothes accessories, parmesan cheese, energy bar, champagne, white wine, corn, mint, asparagus, meatballs, chicken, turkey, burger sauce, protein bar, milk, salmon, avocado, light cream, spinach, carrots, pancakes, soda, cookies, oil, salad, blueberries, low fat yogurt, burgers, french fries, shallot, hot dogs, gums, chutney, strong cheese, flax seed, honey, cream, chocolate, black tea, whole weat flour, almonds, cottage cheese, pet food, whole wheat rice, melons, cauliflower, water spray, light mayo, mayonnaise, tomato juice, cider, pickles, green beans, bacon, toothpaste, grated cheese, pepper, fresh bread, fresh tuna, cereals, barbecue sauce,  asparagus, mashed potato, bug spray, green tea, vegetables mix, fromage blanc, nonfat milk, brownies, muffins, sandwich, olive oil, oatmeal, cooking oil, yams, napkins, soup, ketchup, pasta, ground beef, herb & pepper, mint green tea.
 
+## Results
+Without knowing much more about the business's specific requirements, let's try to dig a bit deeper to find the rules with higher confidence and/or lift to help in understanding the items that are sold most often and start to build different strategies to promote those items. The Lift had a simple interpretation which is more intuitive and easier to convey as values more significant than one indicate that the items co-occur more than we would expect if they were independently distributed across transactions.
+
+After reviewing the distribution of metrics from the visualization chart, the metrics were decided as shown below for the pruning process:
+-	Antecedent support: 0.005
+-	Consequent support: 0.005
+-	Confidence: 0.4
+-	Support: 0.005
+-	Conviction: 1
+-	Lift: 3
+
+This work discovered interesting association rules based on the pruning process with the metrics applied and found four significant rules.
+1)	(Whole wheat pasta, mineral water) -> olive oil
+2)	(pasta) -> (escalope)
+3)	(Chocolate, herb & pepper) -> (Ground beef)
+4)	(Frozen vegetables, soup) -> (milk)
+
+Using the Apriori algorithm and advanced filtering helps to determine the potentially valuable and interesting rule. By referring to the antecedents column and the consequents column, we observed that for each rule, the antecedents are sold along with the consequents, which can be used in marketing strategies to sell more items to generate profit.
+
 ## Findings
 Based on the association rules, a few conclusions and suggestions for the groceries are made.
 1. In terms of item placement, the outcome could suggest that the groceries put Whole wheat pasta, mineral water, and olive oil in closer places, either on the same shelf or any place closer to each other so that it will be easy for people to reach out to the items.
