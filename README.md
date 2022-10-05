@@ -47,11 +47,10 @@ The usage of the association rule in market basket analysis will focus on the an
 - The items sold are tomato sauce, bramble, babies food, salt, extra dark chocolate, mushroom cream sauce, escalope, frozen vegetables, strawberries, dessert wine, antioxydant juice, cake, french wine, tea, tomatoes, frozen smoothie, sparkling water, gluten free bar, body spray, green grapes, eggplant, spaghetti, energy drink, candy bars, yogurt cake, butter, chocolate bread, shrimp, eggs, mineral water, red wine, shampoo, whole wheat pasta, magazines, zucchini, rice, ham, hand protein bar, chili, clothes accessories, parmesan cheese, energy bar, champagne, white wine, corn, mint, asparagus, meatballs, chicken, turkey, burger sauce, protein bar, milk, salmon, avocado, light cream, spinach, carrots, pancakes, soda, cookies, oil, salad, blueberries, low fat yogurt, burgers, french fries, shallot, hot dogs, gums, chutney, strong cheese, flax seed, honey, cream, chocolate, black tea, whole weat flour, almonds, cottage cheese, pet food, whole wheat rice, melons, cauliflower, water spray, light mayo, mayonnaise, tomato juice, cider, pickles, green beans, bacon, toothpaste, grated cheese, pepper, fresh bread, fresh tuna, cereals, barbecue sauce,  asparagus, mashed potato, bug spray, green tea, vegetables mix, fromage blanc, nonfat milk, brownies, muffins, sandwich, olive oil, oatmeal, cooking oil, yams, napkins, soup, ketchup, pasta, ground beef, herb & pepper, mint green tea.
 
 ## Findings
-- Based on the association rules, a few conclusions and suggestions for the groceries are made.
--	In terms of item placement, the outcome could suggest that the groceries put Whole wheat pasta, mineral water, and olive oil in closer places, either on the same shelf or any place closer to each other so that it will be easy for people to reach out to the items.
--	The results suggest putting Whole wheat pasta, mineral water, and olive oil as a single bundle of products or special packs at a lower price to attract customers to buy and generate more profit.
--	The results suggest running discounts and promotions on the items. Whenever customer purchase:
-  -	Pasta, they will get a discount on buying escalope or
-  -	Chocolate, herb & pepper, they will get a discount on buying ground beef
-  - Frozen vegetables, soup, they will get a discount on buying milk
--	The shop could advertise the special deal on the day to recommend customers to buy the combination of items to get a discount.
+Based on the association rules, a few conclusions and suggestions for the groceries are made.
+1. In terms of item placement, the outcome could suggest that the groceries put Whole wheat pasta, mineral water, and olive oil in closer places, either on the same shelf or any place closer to each other so that it will be easy for people to reach out to the items.
+2. The results suggest putting Whole wheat pasta, mineral water, and olive oil as a single bundle of products or special packs at a lower price to attract customers to 3. The results suggest running discounts and promotions on the items. Whenever customer purchase:
+- Pasta, they will get a discount on buying escalope or
+-	Chocolate, herb & pepper, they will get a discount on buying ground beef
+- Frozen vegetables, soup, they will get a discount on buying milk
+4. The shop could advertise the special deal on the day to recommend customers to buy the combination of items to get a discount.
