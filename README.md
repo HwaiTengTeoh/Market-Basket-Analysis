@@ -6,6 +6,12 @@ The concept of association rule mining was popularised in 1993 through a study o
 
 Market basket analysis is structured around association rules which tell us that items are related to each other, perhaps due to the items being bought together frequently. The Association rule can be regarded as "if-then" statements that consist of antecedent (if) and consequent (then), which both are made up of a list of items. The association rule's strength or interestingness for the relationship between the antecedent and consequent is then measured by support and confidence. For instance, if we find that buying bread is associated with buying milk, we could state it as "if bread then milk."
 
+This work applies the knowledge of market basket analysis by demonstrating using a transaction dataset to help identify valuable and significant associations between items by using lists of transactions. These associations can be depicted in the form of a rule that has an antecedent and a consequent, given that we have been provided with a record of the transactions of grocery store transactions. We want to examine the possible association between the items. 
+
+In short, the analysis is initialized by counting the occurrence of each item to come up with a subset of frequent items that satisfy the minimum support threshold. By iterating through the frequent item set, the association rule between the frequently bought together items (such as when item A, known as the antecedent, is bought, then item B, known as the consequent, is also bought together) is produced as output.
+
+Note: The workflow is done with Python coding. Thus, besides the theoretical concept, some code chunks are attached here to explain the process. Please refer to the Jupyter notebook saved in the source code folder for further reference. Similar explanations are constructed in the notebook for consistency.
+
 ### The role of Metrics
 The usage of the association rule in market basket analysis will focus on the analysis of rules. Since there are many rules available, it would be significant if we could limit them by taking only the valuable rules. To get those rules, we will use some metrics acting as a measure of the performance of the rule, which allows us to quantify the usefulness of the relationships or associations between the items. The metrics discussed in this report are as follows: support, confidence, Lift, and convictions.
 
@@ -28,8 +34,6 @@ The usage of the association rule in market basket analysis will focus on the an
 - Conviction measures the degree of implication of a rule or has the value of 1 if items are unrelated. 
 - Conviction value is the ratio of the frequency that the rule is making an incorrect prediction divided by the observed frequency of incorrect prediction. 
 - The higher conviction value indicates that the consequent depends strongly on the antecedent.
-
-## Problem Statement
 
 ## Objectives
 The objectives are as follows:
